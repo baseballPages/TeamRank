@@ -1,65 +1,84 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
+import NC from "./res/nc.png";
+import LG from "./res/lg.png";
+import OB from "./res/ob.png";
+import WO from "./res/wo.png";
+import HT from "./res/ht.png";
+import LT from "./res/lt.png";
+import KT from "./res/kt.png";
+import SS from "./res/ss.png";
+import SK from "./res/sk.png";
+import HH from "./res/hh.png";
+
+const images = {
+  NC: NC,
+  LG: LG,
+  OB: OB,
+  WO: WO,
+  HT: HT,
+  LT: LT,
+  KT: KT,
+  SS: SS,
+  SK: SK,
+  HH: HH,
+};
 
 export default function Team({ team }) {
-  var url = "";
-  var name = "";
-  switch (team.team) {
-    case "NC":
-      url =
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/NC_Dinos_Emblem.svg/1200px-NC_Dinos_Emblem.svg.png";
-      name = "NC";
-      break;
-    case "LG":
-      url =
-        "https://upload.wikimedia.org/wikipedia/commons/4/41/LG_Twins_2017.png";
-      name = "LG";
-      break;
-    case "OB":
-      url =
-        "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Doosan_Bears.svg/1200px-Doosan_Bears.svg.png";
-      name = "두산";
-      break;
-    case "WO":
-      url = "https://upload.wikimedia.org/wikipedia/en/4/4f/Kiwoom_Heroes.png";
-      name = "키움";
-      break;
-    case "HT":
-      url =
-        "https://upload.wikimedia.org/wikipedia/en/e/e0/Kia_Tigers_2017_New_Team_Logo.png";
-      name = "KIA";
-      break;
-    case "LT":
-      url = "https://upload.wikimedia.org/wikipedia/en/d/d9/Lotte_Giants.png";
-      name = "롯데";
-      break;
-    case "KT":
-      url =
-        "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/KT_Wiz.svg/1200px-KT_Wiz.svg.png";
-      name = "kt";
-      break;
-    case "SS":
-      url =
-        "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Samsung_Lions.svg/1200px-Samsung_Lions.svg.png";
-      name = "삼성";
-      break;
-    case "SK":
-      url = "https://upload.wikimedia.org/wikipedia/en/5/5c/SK_Wyverns.png";
-      name = "SK";
-      break;
-    case "HH":
-      url =
-        "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Hanwha_Eagles.svg/1200px-Hanwha_Eagles.svg.png";
-      name = "한화";
-      break;
-  }
+  const [image, setImage] = useState(null);
+  const [name, setName] = useState(null);
+
+  useEffect(() => {
+    switch (team.team) {
+      case "NC":
+        setImage(images.NC);
+        setName("NC");
+        break;
+      case "LG":
+        setImage(images.LG);
+        setName("LG");
+        break;
+      case "OB":
+        setImage(images.OB);
+        setName("두산");
+        break;
+      case "WO":
+        setImage(images.WO);
+        setName("키움");
+        break;
+      case "HT":
+        setImage(images.HT);
+        setName("KIA");
+        break;
+      case "LT":
+        setImage(images.LT);
+        setName("롯데");
+        break;
+      case "KT":
+        setImage(images.KT);
+        setName("kt");
+        break;
+      case "SS":
+        setImage(images.SS);
+        setName("삼성");
+        break;
+      case "SK":
+        setImage(images.SK);
+        setName("SK");
+        break;
+      case "HH":
+        setImage(images.HH);
+        setName("한화");
+        break;
+    }
+  }, []);
 
   return (
     <div className="body">
       <div className="rank">
         <div className="rank-num">{team.ranking}</div>
         <div className="rank-team">
-          <img src={url} alt=""></img>
+          <img src={image} alt=""></img>
           <div>{name}</div>
         </div>
       </div>
