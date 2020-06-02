@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TeamRank/precache-manifest.55d9e99fddc4bb65987f0f331887a829.js"
+  "/TeamRank/precache-manifest.eff6ebfe379515ec4f9eaeecf62537e5.js"
 );
 
 self.addEventListener('message', (event) => {
