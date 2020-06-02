@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/TeamRank/static/css/main.45f307cb.chunk.css",
-    "main.js": "/TeamRank/static/js/main.5d96089d.chunk.js",
-    "main.js.map": "/TeamRank/static/js/main.5d96089d.chunk.js.map",
+    "main.js": "/TeamRank/static/js/main.2b4f436e.chunk.js",
+    "main.js.map": "/TeamRank/static/js/main.2b4f436e.chunk.js.map",
     "runtime-main.js": "/TeamRank/static/js/runtime-main.c5952d85.js",
     "runtime-main.js.map": "/TeamRank/static/js/runtime-main.c5952d85.js.map",
-    "static/js/2.7d478ffe.chunk.js": "/TeamRank/static/js/2.7d478ffe.chunk.js",
-    "static/js/2.7d478ffe.chunk.js.map": "/TeamRank/static/js/2.7d478ffe.chunk.js.map",
+    "static/js/2.ed6b7373.chunk.js": "/TeamRank/static/js/2.ed6b7373.chunk.js",
+    "static/js/2.ed6b7373.chunk.js.map": "/TeamRank/static/js/2.ed6b7373.chunk.js.map",
     "index.html": "/TeamRank/index.html",
-    "precache-manifest.e3cc0eb328903f8b6c582c6a1f65b330.js": "/TeamRank/precache-manifest.e3cc0eb328903f8b6c582c6a1f65b330.js",
+    "precache-manifest.eff6ebfe379515ec4f9eaeecf62537e5.js": "/TeamRank/precache-manifest.eff6ebfe379515ec4f9eaeecf62537e5.js",
     "service-worker.js": "/TeamRank/service-worker.js",
     "static/css/main.45f307cb.chunk.css.map": "/TeamRank/static/css/main.45f307cb.chunk.css.map",
-    "static/js/2.7d478ffe.chunk.js.LICENSE.txt": "/TeamRank/static/js/2.7d478ffe.chunk.js.LICENSE.txt"
+    "static/js/2.ed6b7373.chunk.js.LICENSE.txt": "/TeamRank/static/js/2.ed6b7373.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c5952d85.js",
-    "static/js/2.7d478ffe.chunk.js",
+    "static/js/2.ed6b7373.chunk.js",
     "static/css/main.45f307cb.chunk.css",
-    "static/js/main.5d96089d.chunk.js"
+    "static/js/main.2b4f436e.chunk.js"
   ]
 }
