@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TeamRank/static/css/main.45f307cb.chunk.css",
-    "main.js": "/TeamRank/static/js/main.229a2342.chunk.js",
-    "main.js.map": "/TeamRank/static/js/main.229a2342.chunk.js.map",
+    "main.js": "/TeamRank/static/js/main.5d96089d.chunk.js",
+    "main.js.map": "/TeamRank/static/js/main.5d96089d.chunk.js.map",
     "runtime-main.js": "/TeamRank/static/js/runtime-main.c5952d85.js",
     "runtime-main.js.map": "/TeamRank/static/js/runtime-main.c5952d85.js.map",
     "static/js/2.7d478ffe.chunk.js": "/TeamRank/static/js/2.7d478ffe.chunk.js",
     "static/js/2.7d478ffe.chunk.js.map": "/TeamRank/static/js/2.7d478ffe.chunk.js.map",
     "index.html": "/TeamRank/index.html",
-    "precache-manifest.8d3b53432c99357e840d37e0826fff09.js": "/TeamRank/precache-manifest.8d3b53432c99357e840d37e0826fff09.js",
+    "precache-manifest.e3cc0eb328903f8b6c582c6a1f65b330.js": "/TeamRank/precache-manifest.e3cc0eb328903f8b6c582c6a1f65b330.js",
     "service-worker.js": "/TeamRank/service-worker.js",
     "static/css/main.45f307cb.chunk.css.map": "/TeamRank/static/css/main.45f307cb.chunk.css.map",
     "static/js/2.7d478ffe.chunk.js.LICENSE.txt": "/TeamRank/static/js/2.7d478ffe.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c5952d85.js",
     "static/js/2.7d478ffe.chunk.js",
     "static/css/main.45f307cb.chunk.css",
-    "static/js/main.229a2342.chunk.js"
+    "static/js/main.5d96089d.chunk.js"
   ]
 }
