@@ -21,6 +21,7 @@ function App() {
   function saveAs(uri, filename) {
     // 캡쳐된 파일을 이미지 파일로 내보낸다.
     var link = document.createElement("a");
+
     if (typeof link.download === "string") {
       link.href = uri;
       link.download = filename;
@@ -34,9 +35,10 @@ function App() {
 
   const onClickHandler = () => {
     console.log("clicked");
+    html2canvas(document.getElementById("table"), { dpi: 144 });
 
     html2canvas(document.getElementById("table")).then((canvas) => {
-      saveAs(canvas.toDataURL("image/png"), "capture-test.png");
+      saveAs(canvas.toDataURL("image/png", 1.0), "team_rank.png");
     });
   };
 
